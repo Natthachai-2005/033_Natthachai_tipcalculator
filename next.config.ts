@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/033_Natthachai_tipcalculator",
+  assetPrefix: "/033_Natthachai_tipcalculator/",
 };
 
 export default nextConfig;
