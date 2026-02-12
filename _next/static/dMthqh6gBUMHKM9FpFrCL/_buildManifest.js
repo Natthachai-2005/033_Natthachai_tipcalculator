@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/033_Natthachai_tipcalculator//_next/:path+",
+        "destination": "/033_Natthachai_tipcalculator/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
